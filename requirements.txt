@@ -1,0 +1,11 @@
+speechrecognition
+pyttsx3
+pyaudio
+pyautogui
+requests
+wikipedia
+pyjokes
+openai
+pywhatkit
+python-dotenv
+
