@@ -65,7 +65,7 @@ sambanova_API_KEY=your_sambanova_api_key
 ### Running Gravies
 
 ```powershell
-python Include/gravies.py
+python gravies.py
 ```
 
 ## Usage
@@ -113,39 +113,15 @@ Gravies is built to be a flexible assistant you can interact with by voice or te
 - Assistance: tell jokes, define words, and return AI-generated answers or suggestions.
 - Automation hooks: scriptable actions using OS commands and GUI automation.
 
-These features are implemented as commands inside the assistant. You can invoke them either in interactive mode or by using the built-in help to learn available commands.
 
-## Using "gravies help"
-
-Gravies includes a help/usage facility to discover available commands and how to use them. Examples below assume you're in the project root and using PowerShell on Windows.
-
-1) Quick command-line help
-
-```powershell
-python gravies.py --help
-```
-
-This prints a short summary of command-line options (mode selection, flags, etc.). If your copy of Gravies exposes a `help` or `--help` flag, use that to see the supported runtime options.
-
-2) Interactive help inside the assistant
-
-Start Gravies in the preferred mode (voice or text) and type or say "help" or "what can you do" when prompted. Example:
-
-```powershell
-python gravies.py
-# then at the prompt type: help
-# or say: "what can you do"
-```
-
-3) Discovering commands and examples
+Discovering commands and examples
 
 When you call the help command in interactive mode, Gravies will list supported commands and often show example usage (for example: "send whatsapp message", "open chrome", "play music", "get weather in London"). Use these examples as a starting point and adapt them to your needs.
 
-4) Editing generated messages
+Editing generated messages
 
 If Gravies generates an email or WhatsApp message for you, it may open Notepad (or your default editor) so you can review and edit the content before sending. This is helpful for personalization and accuracy.
 
-If you want me to add a full list of the concrete command phrases that your local copy supports (extracted from the code), tell me and I will scan the repository and append a searchable command list to this README.
 
 ## License
 
